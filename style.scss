@@ -32,14 +32,12 @@
 }
 
 @media (max-width: 650px) {
-  .container {
-  }
-
   [class^="row-"] {
     flex-direction: column;
   }
 
   [class^="box-"] {
     width: 100%;
+    background-color: blueviolet;
   }
 }
